@@ -10,4 +10,4 @@ def wordCount(string):
     print(diction)
     return
 
-wordCount('evveeennntttteeeepppp')
+wordCount('evveeennntttteeeepppp')s
