@@ -22,3 +22,17 @@ class Cat:
 animals = [Dog(), Cat()]
 for animal in animals:
     print(animal.speak())  # Output: Woof! Meow
+
+
+    class Dog:
+    def __init__(self, name, breed):  # Constructor method
+        self.name = name  # Instance variable
+        self.breed = breed
+    
+    def bark(self):  # Method for behavior
+        return "Woof!"
+
+# Creating an object
+my_dog = Dog("Buddy", "Golden Retriever")
+print(my_dog.name)  # Accessing attributes
+print(my_dog.bark())  # Calling a method
