@@ -24,7 +24,7 @@ for animal in animals:
     print(animal.speak())  # Output: Woof! Meow
 
 
-    class Dog:
+class Dog:
     def __init__(self, name, breed):  # Constructor method
         self.name = name  # Instance variable
         self.breed = breed
